@@ -169,7 +169,7 @@ for (var item of data.basket) {
 **What happens when we change basket in the code? Why?**
 
 Modify your program so that it prints out the quantity and total cost (price ×
-quantity) of each item. Check your answers against this tweet:
+quantity) of each item. **Check your answers against this tweet:**
 
 ![dril](img/wint.png)
 
