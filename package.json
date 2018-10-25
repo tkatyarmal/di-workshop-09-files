@@ -1,0 +1,19 @@
+{
+  "name": "di-workshop-09-files",
+  "version": "1.0.0",
+  "description": "Reading and writing from files in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adaapp/di-workshop-09-files.git"
+  },
+  "author": "Alex Dytrych <alex@dytry.ch>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adaapp/di-workshop-09-files/issues"
+  },
+  "homepage": "https://github.com/adaapp/di-workshop-09-files#readme"
+}
