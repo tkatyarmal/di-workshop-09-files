@@ -49,6 +49,7 @@ console.log(fileContents)
 ```
 
 Before you run the code, read it carefully. **What do you think it’ll do?**
+  I think the code will list out the names.txt
 
 Run the code in your terminal with `node part-1.js`. **What happened? Was it
 what you expected?**
@@ -69,8 +70,11 @@ Run your code and see what the difference is. So some research to answer these
 questions:
 
 - **What does utf-8 mean**
+      Its a way to encode characters (similar to ASCII)
 - **Why does adding it change what our code does?**
+      Adding this means that the readFileSync() will read the file in utf-8
 - Extra: **what other things could we try adding instead of `utf-8`?**
+      You can replace utf-8 with ascii
 
 Now, `readFileSync` should be returning a _string_ containing the contents of
 our file.
