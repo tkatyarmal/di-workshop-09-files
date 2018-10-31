@@ -133,9 +133,13 @@ In this exercise, we’re going to be working with JSON. Do some research and
 answer the following questions:
 
 - **What is JSON?**
+      Stands for Javascript Object Notation - holds data similar to how a database does
 - **What’s it used for?**
+      Transmitting structured data over a network connection
 - **What does it look like?**
+      JSON.parse(myJSON); ????
 - **Where have we seen it before?**
+      Earlier workshop
 
 Take a look at `shopping-basket.json` and familiarise yourself with it's
 contents. This is JSON data for a shopping cart. It is an object with one
@@ -148,6 +152,7 @@ part 1.**
 
 The data is still a string - before we can work with it as objects & arrays, we
 need to _parse_ it. Do some research: **what does parsing mean?**
+      It means to analyze the code specifically so its an object and not a string of text
 
 Replace your console.log with lines of code like this:
 
@@ -159,6 +164,7 @@ console.log(data)
 **What do you think will change?**
 
 Run the code. **What changed? Why?**
+      the formatting changed perhaps because now it is an object and not just some string
 
 We can _loop_ over each item in the basket with the following code:
 

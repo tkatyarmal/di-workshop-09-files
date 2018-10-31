@@ -1,3 +1,4 @@
+//to include the File System module, use the require(method)
 var fs = require('fs')
 
 var fileContents = fs.readFileSync('names.txt', 'utf-8')
